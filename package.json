@@ -1,0 +1,33 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "\"Browser based game\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/marohha/project1.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "MaroHHa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marohha/project1/issues"
+  },
+  "homepage": "https://github.com/marohha/project1#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.6",
+    "@babel/preset-env": "^7.23.6",
+    "eslint": "^8.55.0"
+  },
+  "dependencies": {
+    "core-js": "^3.34.0"
+  }
+}
